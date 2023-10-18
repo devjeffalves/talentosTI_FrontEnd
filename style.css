@@ -1,84 +1,86 @@
 body {
-    background: rgb(35, 36, 0);
-    background: linear-gradient(90deg, rgba(35, 36, 0, 1) 0%, rgb(21, 67, 168) 17%, rgba(0, 212, 255, 1) 100%);
- }
- 
- h1,
- h2,
- p,
- table {
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
- }
- 
- h2 {
-    font-size: larger;
-    text-align: center;
- }
- h3{
-    font-size: 15px;
-    text-align:left;
- }
- img {
-    width: 6rem;
-    border-radius: 50%;
- }
- 
- header {
-    background-color: rgb(250, 235, 215, 0.3);
-    border: 2px solid rgb(255, 255, 255);
-    padding: 1rem;
-    margin: 4rem;
-    border-radius: 1REM;
- }
- 
- #head {
-    display: grid;
-    grid-template-columns: 10rem 1fr;
-    align-items: center;
- }
- 
- #block {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding-top: 1px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 2rem;
-    text-align: center;
-    border-radius: 1rem;
- 
- 
- }
- 
- .Escolaridade,
- .Cursos,
- .Experiencias {
-    position: relative;
-    margin-top: 2rem;
-    font-size: larger;
-    text-align: center;
- 
- }
- 
- table {
-    /* color: beige; */
-    background-color: rgb(178, 220, 162, O.8);
-    width: 100%;
-    text-align: center;
- }
- 
- tr,
- th,
- td {
-    border-bottom: 1px solid #ddd;
- 
- }
- 
- td:hover {
-    background-color: rgb(80, 138, 255);
- }
- 
- #footer{
-    text-align: center;
- }
+   background: rgb(35, 36, 0);
+   background: linear-gradient(90deg, rgba(35, 36, 0, 1) 0%, rgb(21, 67, 168) 17%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1,
+h2,
+p,
+table {
+   font-family: 'Roboto', sans-serif;
+   text-align: justify;
+}
+
+h2 {
+   font-size: larger;
+   text-align: center;
+}
+
+h3 {
+   font-size: 15px;
+   text-align: left;
+}
+
+img {
+   width: 8rem;
+   border-radius: 50%;
+}
+
+header {
+   background-color: rgb(250, 235, 215, 0.3);
+   border: 2px solid rgb(255, 255, 255);
+   padding: 1rem;
+   margin: 4rem;
+   border-radius: 1REM;
+}
+
+#head {
+   display: grid;
+   grid-template-columns: 10rem 1fr;
+   align-items: center;
+}
+
+#block {
+   background-color: rgba(255, 255, 255, 0.1);
+   padding-top: 1px;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-bottom: 1rem;
+   margin-top: 2rem;
+   text-align: center;
+   border-radius: 1rem;
+
+
+}
+
+.Escolaridade,
+.Cursos,
+.Experiencias {
+   position: relative;
+   margin-top: 2rem;
+   font-size: larger;
+   text-align: center;
+
+}
+
+table {
+   /* color: beige; */
+   background-color: rgb(178, 220, 162, O.8);
+   width: 100%;
+   text-align: center;
+}
+
+tr,
+th,
+td {
+   border-bottom: 1px solid #ddd;
+
+}
+
+td:hover {
+   background-color: rgb(80, 138, 255);
+}
+
+#footer {
+   text-align: center;
+}
