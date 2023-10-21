@@ -1,6 +1,17 @@
 body {
    background: rgb(35, 36, 0);
    background: linear-gradient(90deg, rgba(35, 36, 0, 1) 0%, rgb(21, 67, 168) 17%, rgba(0, 212, 255, 1) 100%);
+};
+
+* { 
+   margin: 0;
+   padding: 0;
+}
+
+.topbar { 
+   background-color: blue;
+   height: 8;
+
 }
 
 h1,
@@ -29,7 +40,10 @@ header .imagem-botao{
    width: 40px;
    align-items: center;
 }
-
+header .imagem-botao-lua{
+   width: 30px;
+   align-items:start;
+}
 header {
    background-color: rgb(250, 235, 215, 0.3);
    border: 2px solid rgb(255, 255, 255);
@@ -43,10 +57,18 @@ header #botao-alterar-tema{
    cursor: pointer;
    margin-left: 60rem;
 }
+header #botao-alterar-tema-dark{
+   background: none;
+   border: none;
+   cursor: pointer;
+   
+}
  .imagem-botao:hover {
    transform: scale(1.5);
  }
-  
+  .imagem-botao-lua:hover {
+   transform: scale(1.5);
+  }
 #head {
    display: grid;
    grid-template-columns: 10rem 1fr;
@@ -100,5 +122,5 @@ td:hover {
 
 .dark {
    background-color: black;
-   color: #fff;
+   color: #ddd;
 }
