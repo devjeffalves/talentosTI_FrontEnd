@@ -3,16 +3,107 @@ body {
    background: linear-gradient(90deg, rgba(35, 36, 0, 1) 0%, rgb(21, 67, 168) 17%, rgba(0, 212, 255, 1) 100%);
 };
 
-* { 
+* {
    margin: 0;
    padding: 0;
-}
+   font-family: "Poppins", sans-serif;
+ }
 
 .topbar { 
    background-color: blue;
    height: 8;
 
 }
+
+ h1,
+ h2,
+ p {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: #fff;
+   margin: 10px;
+   text-align: center;
+ }
+ 
+ #centro {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.3em;
+   height: 100vh;
+   width: 100vw;
+   margin: auto;
+ }
+ 
+ #centro a {
+   color: #fff;
+   text-decoration: none; /*Remove o underline do Link a*/
+ }
+ 
+ /* Item ativo */
+ ul.topbar li a.active {
+   color: #054b03 !important;
+   font-weight: bold;
+ }
+ 
+ /* Traço embaixo do item */
+ li > a::after {
+   content: "";
+   display: block;
+   margin: auto;
+   height: 5px;
+   width: 0;
+   top: 5px;
+   background: transparent;
+   transition: all 0.3s;
+ }
+ 
+ li > a:hover::after,
+ li > a.active::after {
+   width: 100%;
+   background: #fff;
+ }
+ 
+ /* Remove as margens, define tamanho do menu para 100%, e adiciona uma cor de fundo */
+ ul.topbar {
+   background: #3333c0;
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 3em;
+   line-height: 3em;
+   width: 100%;
+ }
+ 
+ /* Coloca os itens da lista do Menu lado a lado, e flutua os itens para a esquerda */
+ ul.topbar li {
+   display: inline-block;
+   margin-left: 0.5em;
+   font-size: 0.9em;
+ }
+ 
+ /* Estilo dos links dentro da lista */
+ ul.topbar li a {
+   display: block;
+   color: #fff;
+   text-decoration: none;
+   height: 3em;
+   line-height: 3em;
+   padding: 0 0.3em 0 0.3em;
+   outline: 0;
+   font-weight: bold;
+ }
+ 
+ /* Altera a cor do link quando passa o mouse em cima*/
+ ul.topbar li a:hover {
+   color: #2d11cc;
+ }
+ 
+ /* Esconde os itens da lista quando a resolução da tela for pequena */
+ ul.topbar li.icon {
+   display: none;
+ }
 
 h1,
 h2,

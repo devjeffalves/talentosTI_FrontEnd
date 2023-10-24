@@ -19,6 +19,10 @@ dark.addEventListener("click", () => {
     // });
 })
 
+const menuResponsivo = () => {
+    document.querySelector(".topbar").classList.toggle("responsive");
+  };
+
 
 
 
